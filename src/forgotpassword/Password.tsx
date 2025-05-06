@@ -14,7 +14,6 @@ const Password = () => {
                     </Link>
                 </div>
 
-                {/* New Password */}
                 <div className="mb-4 relative">
                     <label className="text-sm font-medium text-gray-700 block mb-1">
                         New Password
@@ -27,7 +26,7 @@ const Password = () => {
                     <IoEyeOutline className="absolute top-9 right-3 text-gray-500 cursor-pointer" />
                 </div>
 
-                {/* Confirm Password */}
+                
                 <div className="mb-4 relative">
                     <label className="text-sm font-medium text-gray-700 block mb-1">
                         Confirm Password
@@ -40,7 +39,6 @@ const Password = () => {
                     <IoEyeOutline className="absolute top-9 right-3 text-gray-500 cursor-pointer" />
                 </div>
 
-                {/* Password Requirements */}
                 <div className="mb-6">
                     <ul className="space-y-2 text-sm text-gray-700">
                         <li className="flex items-center gap-2">
@@ -62,19 +60,17 @@ const Password = () => {
                     </ul>
                 </div>
 
-                {/* Continue Button */}
                 <button className="w-full bg-[#512888] text-white py-2 rounded-xl hover:bg-purple-800">
                     Continue
                 </button>
 
-                {/* Divider */}
+                
                 <div className="flex items-center my-6">
                     <hr className="flex-1 border-gray-300" />
                     <span className="mx-4 text-gray-700">OR</span>
                     <hr className="flex-1 border-gray-300" />
                 </div>
 
-                {/* Google Login */}
                 <div className="mb-4 px-2 flex items-center border border-gray-300 rounded-md">
                     <img
                         src="google.png"
@@ -89,7 +85,7 @@ const Password = () => {
                     <LiaAngleRightSolid className="text-gray-500 mx-2" />
                 </div>
 
-                {/* Apple Login */}
+                
                 <div className="mb-4 px-2 flex items-center border border-gray-300 rounded-md">
                     <img
                         src="/apple.png"

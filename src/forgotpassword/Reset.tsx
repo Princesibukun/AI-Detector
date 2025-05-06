@@ -36,7 +36,6 @@ const Reset = () => {
                     <hr className="flex-1 border-gray-300" />
                 </div>
                 
-                {/* Google Login Button */}
                 <div className="mb-4 px-2 flex items-center border border-gray-300 rounded-md">
                     <img src="google.png" alt="Google Logo" className="w-6 h-6 mr-2" />
                     <button
@@ -48,7 +47,6 @@ const Reset = () => {
                     <LiaAngleRightSolid className="text-gray-500 mx-2" />
                 </div>
 
-                {/* Apple Login Button */}
                 <div className="mb-4 px-2 flex items-center border border-gray-300 rounded-md">
                     <img src="/apple.png" alt="Apple Logo" className="w-6 h-6 mr-2" />
                     <button

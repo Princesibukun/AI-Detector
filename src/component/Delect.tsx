@@ -15,34 +15,28 @@ const Delect = () => {
                     
                     <div  className="flex justify-center mt-10">
                     <div className="flex flex-wrap items-center justify-center gap-20 py-10">
-                        {/* Step 1 */}
+                        
                         <div className="flex flex-col items-center text-center">
                             <FaPaste className="bg-red-400 text-white p-6 rounded-full text-8xl" />
                             <p className="mt-4 font-semibold">Paste or Upload text</p>
                         </div>
 
-                        {/* Arrow */}
                         <BsArrowRight className="text-4xl text-gray-700" />
 
-                        {/* Step 2 */}
                         <div className="flex flex-col items-center text-center">
                             <MdOutlineEmergency className="bg-yellow-400 text-white p-6 rounded-full text-8xl" />
                             <p className="mt-4 font-semibold">Get AI Detection</p>
                         </div>
 
-                        {/* Arrow */}
                         <BsArrowRight className="text-4xl text-gray-700" />
 
-                        {/* Step 3 */}
                         <div className="flex flex-col items-center text-center">
                             <CgNotes className="bg-blue-400 text-white p-6 rounded-full text-8xl" />
                             <p className="mt-4 font-semibold">View Result</p>
                         </div>
 
-                        {/* Arrow */}
                         <BsArrowRight className="text-4xl text-gray-700" />
 
-                        {/* Step 4 */}
                         <div className="flex flex-col items-center text-center">
                             <CgNotes className="bg-[#512888] text-white p-6 rounded-full text-8xl" />
                             <p className="mt-4 font-semibold">Save History</p>
