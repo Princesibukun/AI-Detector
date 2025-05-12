@@ -1,11 +1,13 @@
-import { Color } from "../component/Color"
-import Delect from "../component/Delect"
+import { Color } from "./Color"
+import Delect from "./Delect"
+import Frequently from "./Frequently"
 
 const Index = () => {
   return (
     <div className="">
         <Color/>
         <Delect/>
+        <Frequently/>
     </div>
   )
 }

@@ -1,12 +1,12 @@
 // src/App.tsx
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Index from "./screen/Index";
+import Index from "./screen/homePage/Index";
 import Layout from "./component/Layout";
-import SignUp from "./component/SignUp";
-import Login from "./component/Login";
-import Reset from "./forgotpassword/Reset";
-import Verify from "./forgotpassword/Verify";
-import Password from "./forgotpassword/Password";
+import SignUp from "./screen/SignUp";
+import Login from "./screen/Login";
+import Reset from "./screen/forgotpassword/Reset";
+import Verify from "./screen/forgotpassword/Verify";
+import Password from "./screen/forgotpassword/Password";
 
 
 const router = createBrowserRouter([

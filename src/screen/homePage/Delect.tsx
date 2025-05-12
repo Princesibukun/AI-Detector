@@ -2,8 +2,8 @@ import { BsArrowRight } from "react-icons/bs";
 import { CgNotes } from "react-icons/cg";
 import { FaPaste } from "react-icons/fa";
 import { MdOutlineEmergency } from "react-icons/md";
-import CardList from "../card/CardList";
-import Frequently from "./Frequently";
+import CardList from "../../card/CardList";
+
 
 const Delect = () => {
     return (
@@ -49,7 +49,6 @@ const Delect = () => {
                     <button className="bg-white text-black border-2 border-gray-300 px-4 py-2 rounded-4xl">Key Features</button>
                     <p className="font-bold text-4xl py-4">What You Get Using AI Detector Tool</p>
                     <CardList/>
-                    <Frequently/>
                 </div>
             </div>
         </div>
